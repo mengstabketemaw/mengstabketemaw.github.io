@@ -77,7 +77,7 @@ experience:
     end: 2026-06
     location: Addis Ababa, Ethiopia
     bullets:
-      - Built a license-management platform end to end: NestJS/TypeScript backend APIs and business workflows.
+      - Built a license-management platform end to end with NestJS/TypeScript backend APIs and business workflows.
       - Developed the React/TypeScript frontend integrating complex business workflows with backend services.
       - Designed API and data flows across the stack with emphasis on maintainability and reliable state management.
 
