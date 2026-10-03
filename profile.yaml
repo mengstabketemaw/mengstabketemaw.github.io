@@ -10,6 +10,7 @@ links:
   linkedin: https://www.linkedin.com/in/mengstab-kt/
   github: https://github.com/mengstabketemaw
   portfolio: https://mengstabketemaw.github.io
+  x: https://x.com/mengstabkt
 
 # Used to score job matches — deliberately stack-agnostic: open to any
 # reasonable backend/fullstack role, Java ecosystem is home turf.
@@ -129,5 +130,5 @@ scrapers:
   indeed: false
 
 social:
-  x_handle: ""
+  x_handle: "mengstabkt"
   post_approval_required: true
