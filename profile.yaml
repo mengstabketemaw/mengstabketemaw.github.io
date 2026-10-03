@@ -1,0 +1,133 @@
+# Carmen's knowledge of you — single source of truth for matching, CVs,
+# portfolio, and chat. Filled from resume (2026-10-03).
+
+name: Mengstab Ketemaw
+headline: Senior Software Engineer | Backend & Distributed Systems
+location: Addis Ababa, Ethiopia
+email: mengstabrealk28@gmail.com
+phone: "+251949909116"
+links:
+  linkedin: https://www.linkedin.com/in/mengstab-kt/
+  github: https://github.com/mengstabketemaw
+  portfolio: https://mengstabketemaw.github.io
+
+# Used to score job matches — deliberately stack-agnostic: open to any
+# reasonable backend/fullstack role, Java ecosystem is home turf.
+preferences:
+  roles: [backend engineer, senior software engineer, fullstack engineer,
+          distributed systems engineer, platform engineer, java developer]
+  seniority: senior
+  remote: true
+  min_salary_usd: 30000        # sane floor for remote ET-based; raise as you like
+  locations: [remote, "Addis Ababa, Ethiopia", africa, europe, worldwide]
+  tech_stack: [java, spring boot, kotlin, python, typescript, javascript, nestjs,
+               react, node.js, kafka, rabbitmq, grpc, microservices, sql, mysql,
+               postgresql, sql server, docker, kubernetes, aws, redis,
+               event-driven, distributed systems, backend, api, rest]
+  exclude: [unpaid, internship, "0-2 years", junior only, graphic design,
+            frontend-only designer, marketing, sales, support role]
+  stack_agnostic: true         # Carmen: don't reject a role just for unfamiliar tech
+
+summary: >
+  Senior Software Engineer with 5 years of experience designing, building, and
+  optimizing production software across payment infrastructure, enterprise
+  platforms, licensing systems, and distributed services. Deep backend expertise
+  in the Java ecosystem (Spring Boot, microservices, event-driven architecture),
+  with production experience in TypeScript/Node (NestJS, React) and Python.
+  Comfortable owning systems end to end: architecture, data, infrastructure,
+  and production debugging.
+
+skills:
+  - name: Java / Spring Boot
+    years: 5
+  - name: Microservices & Event-Driven Architecture
+    years: 3
+  - name: Apache Kafka / RabbitMQ
+    years: 3
+  - name: gRPC & REST API design
+    years: 4
+  - name: TypeScript / NestJS / React
+    years: 2
+  - name: Python
+    years: 2
+  - name: SQL (SQL Server, MySQL, query optimization)
+    years: 5
+  - name: OAuth 2.0 / SSO / IAM
+    years: 2
+  - name: Docker / CI-CD (Jenkins, SonarQube)
+    years: 3
+  - name: AWS / Linux
+    years: 3
+
+experience:
+  - company: Arifpay
+    title: Senior Software Engineer
+    start: 2026-06
+    end: present
+    location: Addis Ababa, Ethiopia
+    bullets:
+      - Build production-grade payment gateway services in Java, Spring Boot, and Spring Cloud within a microservices architecture.
+      - Design reliable service-to-service communication over gRPC and REST with resilient integration patterns.
+      - Develop database-backed payment workflows focused on transaction consistency, concurrency, and failure handling.
+      - Own production issues across distributed services, databases, and asynchronous workflows.
+
+  - company: Tria
+    title: Senior Software Engineer
+    start: 2026-02
+    end: 2026-06
+    location: Addis Ababa, Ethiopia
+    bullets:
+      - Built a license-management platform end to end: NestJS/TypeScript backend APIs and business workflows.
+      - Developed the React/TypeScript frontend integrating complex business workflows with backend services.
+      - Designed API and data flows across the stack with emphasis on maintainability and reliable state management.
+
+  - company: Dulcian Consulting PLC
+    title: Senior Software Engineer
+    start: 2024-02
+    end: 2026-01
+    location: Addis Ababa, Ethiopia
+    bullets:
+      - Architected the migration of a large monolithic Java application to microservices, improving scalability and service isolation.
+      - Designed and built a centralized authorization server and identity provider (OAuth 2.0, SSO, granular access control) across integrated services.
+      - Built asynchronous real-time notification infrastructure with Apache Kafka for event-driven inter-service communication.
+      - Developed a RabbitMQ-based alerting service monitoring IoT device connectivity with real-time offline notifications.
+      - Diagnosed bottlenecks with JMeter and optimized Spring/JPA queries, contributing to a 20% system-efficiency improvement.
+      - Designed complex T-SQL queries for SQL Server with measurable performance gains; integrated SonarQube into Jenkins CI/CD.
+
+  - company: Dulcian Consulting PLC
+    title: Software Engineer
+    start: 2022-10
+    end: 2024-02
+    location: Addis Ababa, Ethiopia
+    bullets:
+      - Developed and maintained enterprise backend services in Java and Spring Boot.
+      - Implemented REST APIs, database-driven business logic, and internal/external integrations.
+      - Contributed to evolving the platform toward a modular, scalable service architecture.
+
+  - company: Apposit LLC
+    title: Software Developer
+    start: 2022-01
+    end: 2022-03
+    location: Ethiopia
+    bullets:
+      - Delivered features for enterprise applications across JavaScript and Java/Spring Boot.
+
+education:
+  - school: Addis Ababa Science & Technology University
+    degree: B.Sc. Software Engineering
+    start: 2018
+    end: 2022
+
+projects: []   # add when ready — the portfolio section hides itself while empty
+
+# Companies whose Greenhouse/Lever boards Carmen scans daily
+target_companies: [stripe, kong,]   # payment-infra flavoured; edit freely
+# lever.co companies: prefix "lever:"
+
+scrapers:
+  linkedin: false
+  indeed: false
+
+social:
+  x_handle: ""
+  post_approval_required: true
